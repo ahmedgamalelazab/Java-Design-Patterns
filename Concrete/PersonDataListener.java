@@ -8,7 +8,7 @@ public class PersonDataListener implements Observer, Displayable {
 
     private Person person;
 
-    private Person initial; // this is an initial one
+    private Person initial;  //this is an initial one
 
     public PersonDataListener(Person subject) {
         this.person = subject;

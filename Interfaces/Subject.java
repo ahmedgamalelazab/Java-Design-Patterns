@@ -4,11 +4,11 @@ package Interfaces;
 
 public interface Subject {
 
-    void registerListener(Observer o); // later
+    void registerListener(Observer o);   
 
-    void removeListener(Observer o);//later
+    void removeListener(Observer o); 
 
-    void notifyListeners(); //later
+    void notifyListeners();  
    
     
 }
